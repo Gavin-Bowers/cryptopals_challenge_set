@@ -5,6 +5,8 @@ mod challenge_5;
 mod challenge_6;
 mod challenge_4;
 mod challenge_9;
+mod challenge_7;
+mod challenge_8;
 
 use crate::{
     challenge_1::hex_to_base64,
@@ -62,6 +64,16 @@ fn main() {
 
     let s1_p6_file = "6.txt";
     println!("\nThe decrypted text of the file for problem 6 is: {}", break_repeating_key_xor(s1_p6_file));
+
+    ////////////////////////////////////////////////////////////////
+    //Set 1 Problem 9
+    ////////////////////////////////////////////////////////////////
+
+
+    ////////////////////////////////////////////////////////////////
+    //Set 1 Problem 8
+    ////////////////////////////////////////////////////////////////
+    
 
 
     //Set 2 --------------------------------------------------------
